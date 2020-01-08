@@ -1,0 +1,99 @@
+.reg_bg{
+  background:url("../img/reg/background.png") no-repeat;
+  height:786px;
+}
+.reg_card{
+  width:19.3rem;
+  height:24rem;
+  background:#fff;
+  border-radius:10px;
+  position:relative;
+  top:7.5rem;
+  left:60em;
+  box-sizing:border-box;
+  padding-bottom: 1.5rem;
+}
+.login_card{
+  width:19.3rem;
+  height:20rem;
+  background:#fff;
+  border-radius:10px;
+  position:relative;
+  top:7.5rem;
+  left:60em;
+  box-sizing:border-box;
+  padding-bottom: 1.5rem;
+}
+.reg_title{
+  height:3.4rem;
+  color: #B49255;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+  line-height:3.4rem;
+  border-bottom:1px solid #ececec;
+}
+.reg_body{
+  width:15.1rem;
+  margin:0 auto;
+  padding-top:2rem;
+  box-sizing:border-box;
+}
+#uname,#upwd,#cpwd{
+  width:100%;
+  height:2.5rem;
+  border: 1px solid rgba(229, 229, 229, 1);
+  border-radius:4px;
+  padding-left:1rem;
+  margin-bottom:.5rem;
+  box-sizing: border-box;
+}
+.reg_body label{
+  font-size:.7rem;
+  color:#a5a5a5;
+}
+.reg_body button{
+  width:100%;
+  height:2.4rem;
+  background: rgba(180, 146, 85, 1);
+  border-radius: .4rem;
+  border:none;
+  color:#fff;
+  font-size:.9rem;
+  margin-top:1rem;
+  cursor: pointer;
+}
+.toggle_reg{
+  width:100%;
+  height:1rem;
+  margin-top:.5rem;
+}
+.toggle_reg a{
+  display:block;
+  cursor: pointer;
+  line-height: 1rem;
+}
+.toggle_reg a:first-child{
+  float:left;
+  font-size: .7rem;
+  color: #ce4e4e;
+}
+.toggle_reg a:last-child{
+  float: right;
+  font-size: .6rem;
+  color: #A5A5A5;
+}
+.reg_body span{
+  position:relative;
+  top:-.5rem;
+  display:none;
+  font-size:.6rem;
+}
+.reg_fail{
+  color:#ce4e4e;
+  display:block ;
+}
+.reg_suc{
+  color:#9BC53D;
+  display:block;
+}
